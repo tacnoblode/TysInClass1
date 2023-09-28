@@ -1,0 +1,24 @@
+/* Tyson Howell
+8920479 */
+
+body {
+    font: 18px "Impact";
+    background-color: hsla(352, 100%, 63%,1);
+    width: 75vw;
+    height: 75vh;
+
+}
+
+h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+    line-height: 2rem;
+    color: rgba(255, 217, 0,1);
+}
