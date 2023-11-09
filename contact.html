@@ -1,0 +1,97 @@
+<!--Tyson Howell: Thowell0479@conestogac.on.ca-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+        <title>Death Grips is Online</title>
+    </head>
+
+    <body>
+        <header class = "structural">
+
+            <h1>Death Grips Is Online</h1>
+
+        </header>
+
+        <nav class = "structural">
+
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <main class = "structural">
+            <h2>Contact</h2>
+
+            <form action="process-form" method="post" autocomplete="off">
+
+                <label for="name" required>Name : </label>
+                <input type="text" id="name" name="name" required autofocus>
+        
+                <br>
+                <label for="email" required>Email : </label>
+                <input type="email" id="email" name="email" required>        
+        
+                <br>
+                <fieldset>
+                    <legend>What section of PROG1245 are you in?</legend>
+
+                    <input type="radio" name="sec" id="4" value="4" required checked>
+                    <label for="4">Section 4</label>
+        
+                    <input type="radio" name="sec" id="5" value="5" required>
+                    <label for="5">Section 5</label>
+        
+                    <input type="radio" name="sec" id="8" value="8" required>
+                    <label for="8">Section 8</label>
+
+                </fieldset>
+
+                <label for = "menu">What do you need help with?</label>
+                <select name = "menu" id = "menu" required>
+        
+                    <option value = "" selected>Select Option</option>
+                    <option value = "html">HTML</option>
+                    <option value = "css">CSS</option>
+                    <option value = "both">Both</option>
+        
+                </select>
+
+                <br>
+                <br>
+                <label for = "comment" required>Comments</label>
+                <textarea id="comment" name = "comment" rows="4" ></textarea>
+
+                <br>
+                <input type="checkbox" name="human" id="human" value = "true" required>
+                <label for="human">I am a Human</label>
+
+
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+
+        </main>
+        
+        <aside class = "structural">
+            <h2>Some External Sites</h2>
+            <ul>
+                <li><a href = "https://thirdworlds.net/">Third Worlds</a></li>
+                <li><a href = "https://vbuck.work/">Vbuck.Work</a></li>
+            </ul>   
+
+        </aside>
+
+        <footer class = "structural">
+            <p>&copy; Tyson Robert Alexander Howell, 2023</p>
+        </footer>
+
+    </body>
+</html>
